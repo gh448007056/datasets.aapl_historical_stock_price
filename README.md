@@ -1,5 +1,5 @@
 # datasets.aapl_historical_stock_price
-
+This dataset shows the historical stock price till Janural, 2014. The date includes the lowest and highest price each day. And also record the opening and closing price each day. The total trade volume is also include.
 
 Q1. What is the lowest trade volume in 2014 ?
 
