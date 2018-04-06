@@ -11,6 +11,7 @@ where year = 2014
 group by date, volume
 order by volume ASC
 ```
+![datasets.aapl_historical_stock_price](V/VQ1.png)
 
 Q2. which date is the highest trade volume in Jan, 2014? 
 ```sql
@@ -21,6 +22,7 @@ where year = 2014
 group by "date"
 order by Highest_Trade_Volume DESC
 ```
+![datasets.aapl_historical_stock_price](V/VQ2.png)
 
 Q3. what is the highest close price in Feb, 2013?
 ```sql
@@ -31,6 +33,7 @@ where year = 2013 and date  BETWEEN '2013-02-01' and '2013-02-28'
 group by "date"
 order by Highest_Close_Price DESC
 ```
+![datasets.aapl_historical_stock_price](V/VQ3.png)
 
 Q4. what is the average open price in June, 2013?
 ```sql
